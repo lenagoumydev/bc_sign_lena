@@ -1,10 +1,23 @@
 #!/bin/bash
 
+
+###############################
+# A EXECUTER POUR PUSHER     #
+##############################
+
+
+
+
 git_push() {
 
+  # Vous stockez le résultat de la commande dans une variable CURRENT_BRANCH 
+  # Très bien car vous allez pouvoir ainsi savoir si vous êtes bien sur la branche dev
+  
   CURRENT_BRANCH=$(git branch --show-current)
 
-  if [ "$CURRENT_BRANCH" != "master" ]; then
+
+  
+  if [ "$CURRENT_BRANCH" != "dev" ]; then
     echo "You must be on the master branch to execute this script."
     exit 1
   fi
@@ -17,7 +30,7 @@ git_push() {
     exit 1
   fi
 
-  if [ "$BRANCH" != "master" ]; then
+  if [ "$BRANCH" != "dev" ]; then
     echo "You are only allowed to push to the master branch."
     exit 1
   fi

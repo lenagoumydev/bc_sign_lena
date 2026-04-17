@@ -1,0 +1,22 @@
+{
+  "name": "bc_sign_lena",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lenagoumydev/bc_sign_lena.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/lenagoumydev/bc_sign_lena/issues"
+  },
+  "homepage": "https://github.com/lenagoumydev/bc_sign_lena#readme"
+}
